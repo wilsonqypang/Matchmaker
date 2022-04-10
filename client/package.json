@@ -1,0 +1,16 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "matchmaker client",
+  "dependencies": {
+    "socket.io-client": "^3.1.2"
+  },
+  "devDependencies": {
+    "node-json-db": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node client.js",
+    "test": "node test.js"
+  },
+  "author": "Wilson Pang"
+}
